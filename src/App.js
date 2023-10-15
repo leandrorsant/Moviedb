@@ -18,15 +18,16 @@ const App = () => {
     
 
     const searchMovies = async (query) => {
-        //console.log( API_URL + "&s=" + title);
         const response = await fetch( API_URL + "&s=" + query);
         const data = await response.json();
-        //console.log(data.Search);
+        console.log( API_URL + "&t=" + query + "&plot=full");
+        console.log(data)
         setMovies(data.Search);
     }
 
     useEffect(() => {        
-        searchMovies(searchTerm);    
+        searchMovies(searchTerm);
+        console.log(movies')    
     }, []);
 
     return (
@@ -53,9 +54,12 @@ const App = () => {
                     (data, index) => (
                     <MovieCard movie={data}/>)
                 ) : (
+                    searchTerm !== ''
+                    ?
                     <div className="empty">
                         <h2>No movies found</h2>
                     </div>
+                    : ""
                 )
             }
             </div>
