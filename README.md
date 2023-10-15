@@ -15,4 +15,4 @@ npm start
 
 ![Screenshot2](https://raw.githubusercontent.com/leandrorsant/Moviedb/master/src/screenshots/MovieDB_screenshot2.png)
 
-![Screenshot3](https://raw.githubusercontent.com/leandrorsant/Moviedb/master/src/screenshots/MovieDB_screenshot3.png
+![Screenshot3](https://raw.githubusercontent.com/leandrorsant/Moviedb/master/src/screenshots/MovieDB_screenshot3.png)
