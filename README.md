@@ -1,7 +1,7 @@
 # MovieDB app
 This project is a search engine for movies. It parses data from [OMDB API](http://www.omdbapi.com/) and displays results in a dinamically rendered list of movie cards.
 
-### To run this project, clone this repository, install npm dependencies, and run the project:
+### How to run this project:
 ```
 git clone https://github.com/leandrorsant/Moviedb
 cd Moviedb
